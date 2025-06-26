@@ -15,4 +15,3 @@ The dataset used is a subset of 585 patients from the ISPY-2 cohort. Please see 
   
 To reduce memory usage, we generated axial-plane maximum intensity projections (MIPs) of the three DCE-derived volumes. 
 ![image](https://github.com/user-attachments/assets/f65a8d91-e39e-431f-b278-e6069ae8c7ee)
-![image](https://github.com/user-attachments/assets/f65a8d91-e39e-431f-b278-e6069ae8c7ee)
