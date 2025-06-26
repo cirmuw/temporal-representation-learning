@@ -1,0 +1,20 @@
+program: pretraining_tessl.py
+name: pretraining_tessl
+method: grid
+metric:
+  goal: minimize
+  name: train_total_loss
+epochs: 100
+device: 'cuda'
+system: 'msc'
+data_path: ''
+save_path: ''
+timepoints: ['T0', 'T1', 'T2', 'T3']
+batch_size: 8
+val_batch_size: 8
+filters: [16,32,64,128,256,32]
+parameters:
+  lr:
+    values: [0.15, 0.015]
+  mode:
+    values: ['all', 'no_rec']

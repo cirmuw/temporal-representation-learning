@@ -1,0 +1,22 @@
+program: pretraining.py
+name: pretraining
+method: grid
+metric:
+  goal: minimize
+  name: train_total_loss
+epochs: 100
+device: 'cuda'
+system: 'msc'
+data_path: ''
+save_path: ''
+timepoints: ['T0', 'T1', 'T2', 'T3']
+batch_size: 16
+val_batch_size: 16
+filters: [16,32,64,128,256,32]
+mtan_masking: True
+align_labels: [1.0]
+parameters:
+  lr:
+    values: [0.0001]
+  mode:
+    values: ['align', 'temp', 'all']
