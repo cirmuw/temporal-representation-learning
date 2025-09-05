@@ -8,7 +8,7 @@ This repository provides a supplementary code for Temporal Representation Learni
 Multi-task representation learning balances reconstruction performance (L_Rec) with temporal continuity of trajectories (L_Temp) and alignment of changes in responders (L_Align). A U-shaped denoising network extracts multi-scale features via its encoder. An MTAN-inspired masking module is used to steer attention across these tasks. The resulting trajectory representations are utilised for predicting pCR using a linear classifier. To see the integration of the losses please refer to `/utils/ARTLoss.py`. 
 
 ## Data
-The dataset used is a subset of 585 patients from the ISPY-2 cohort. Please see `/data/data_splits.txt` for the full list of patient IDs used. For each patient and each timepoint we use three DCE-derived images from ISPY-2 dataset:
+The dataset used is a subset of 585 patients from the ISPY-2 cohort. Please see `/data/ispy2_subset_ids.txt` for the full list of patient IDs used. For each patient and each timepoint we use three DCE-derived images from ISPY-2 dataset:
 * early enhancement (PE_early, 120–150 sec post-contrast)
 * late enhancement (PE_late, ∼450 sec)
 * signal enhancement ratio (SER = PE_early / PE_late)
