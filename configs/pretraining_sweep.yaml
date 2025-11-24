@@ -10,7 +10,7 @@ system: 'msc'
 data_path: ''
 save_path: ''
 timepoints: ['T0', 'T1', 'T2', 'T3']
-batch_size: 16
+batch_size: 32
 val_batch_size: 16
 filters: [16,32,64,128,256,32]
 mtan_masking: True
