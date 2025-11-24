@@ -3,7 +3,7 @@ import torch.nn as nn
 import numpy as np
 from tqdm import tqdm
 from torch.utils.data import DataLoader
-from utils.LARTLoss import compute_alignment_loss, compute_temporal_loss, compute_reconstruction_loss
+from utils.ARTLoss import compute_alignment_loss, compute_temporal_loss, compute_reconstruction_loss
 
 def train_epoch(
         model: nn.Module,
