@@ -62,7 +62,7 @@ def get_val_dataloaders(data_path, val_batch_size, system='msc', timepoints=['T0
 
             
     eval_ds = ISPY2MIPParametric(val, timepoints=timepoints)
-    val_loader = DataLoader(eval_ds, batch_size=val_batch_size, shuffle=False, worker_init_fn=seed_worker)
+    val_loader = DataLoader(eval_ds, batch_size=val_batch_size, sampler = ImbalancedDatasetSampler(eval_ds), shuffle=False, worker_init_fn=seed_worker)
 
     return val_loader
 
