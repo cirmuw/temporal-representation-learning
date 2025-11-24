@@ -42,7 +42,7 @@ class MTANRecUnet(nn.Module):
         
         attn_mask = self.attention_blocks[i](encoder_features)
         refined_feature = attn_mask * encoder_features  # Apply attention
-        return refined_feature, None
+        return refined_feature
     
     def forward(self, x):
         rec = None
