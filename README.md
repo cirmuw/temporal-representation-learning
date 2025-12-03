@@ -1,6 +1,6 @@
-### Update 2025
-* We are developing a more robust pre-training recipe for this method
-* More experiments with the internal dataset and additionally the ISPY1 dataset
+### [Update December 2025]
+After the publication of this work and during the development of an extended version of the method, we conducted a broader set of experiments across multiple train/validation/test splits. These new experiments revealed that performance can vary substantially across splits/datasets, reflecting both the difficulty of the task and the sensitivity of the original approach.
+Motivated by these observations, we are developing a more stable and generalizable extension of the method, including an improved pre-training recipe and a more comprehensive evaluation protocol. Ongoing experiments on our internal dataset and the ISPY1 dataset will be included in the forthcoming update.
 
 # temporal-representation-learning
 # Temporal Representation Learning of Phenotype Trajectories for pCR Prediction in Breast Cancer
