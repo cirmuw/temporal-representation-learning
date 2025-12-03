@@ -1,4 +1,4 @@
-#### Update 2025
+### Update 2025
 We are developing a more robust pre-training recipe to mitigate the performance variability we observed across data splits.
 
 # temporal-representation-learning
