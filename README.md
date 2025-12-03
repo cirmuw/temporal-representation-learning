@@ -1,6 +1,10 @@
+#### Update 2025
+We are developing a more robust pre-training recipe to mitigate the performance variability we observed across data splits.
+
 # temporal-representation-learning
 # Temporal Representation Learning of Phenotype Trajectories for pCR Prediction in Breast Cancer
 This repository provides a supplementary code for Temporal Representation Learning of Phenotype Trajectories for pCR Prediction in Breast Cancer paper. In this work we designed a representation learning method for treatment/dissease progression learning. 
+
 
 ## Method
 ![image](https://github.com/user-attachments/assets/c4cd3cf9-53ce-4bf5-9ecf-91feb9e2df6f) 
