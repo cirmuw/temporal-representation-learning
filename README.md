@@ -1,5 +1,6 @@
 ### Update 2025
-We are developing a more robust pre-training recipe to mitigate the performance variability we observed across data splits.
+* We are developing a more robust pre-training recipe for this method
+* More experiments with the internal dataset and additionally the ISPY1 dataset
 
 # temporal-representation-learning
 # Temporal Representation Learning of Phenotype Trajectories for pCR Prediction in Breast Cancer
