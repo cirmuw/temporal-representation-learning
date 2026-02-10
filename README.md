@@ -1,5 +1,5 @@
 #### Update [December 2025]
-In subsequent work on an extended version of the method, we conducted additional experiments across multiple train/validation/test splits and datasets. These results suggest that, when applying this method to new tasks or datasets, optimizing the loss-function weighting may be beneficial. The method (L_{\text{ART}}) is backbone-agnostic and easily reusable. We are currently developing a more stable and generalizable extension with expanded evaluation across multiple datasets.
+In subsequent work on an extended version of the method, we conducted additional experiments across multiple train/validation/test splits and datasets. These results suggest that, when applying this method to new tasks or datasets, optimizing the loss-function weighting may be beneficial. The method (L_{ART}) is backbone-agnostic and easily reusable. We are currently developing a more stable and generalizable extension with expanded evaluation across multiple datasets.
 
 # temporal-representation-learning
 # Temporal Representation Learning of Phenotype Trajectories for pCR Prediction in Breast Cancer
